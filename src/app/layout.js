@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body className="bg-gray-50 text-gray-900 antialiased">
         <Navbar />
         {/* 'min-h-screen' নিশ্চিত করবে যে ফুটার সবসময় নিচে থাকবে */}
-        <main className="min-h-screen">
+        <main className="pt-28">
           {children}
         </main>
         {/* Footer আমরা পরে এখানে যোগ করবো */}
